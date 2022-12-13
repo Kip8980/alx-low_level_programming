@@ -6,7 +6,7 @@
  * main - interesting
  *
  * Return: 0
-*/i
+*/
 int main(void)
 {
 	int n;
