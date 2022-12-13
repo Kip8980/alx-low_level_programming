@@ -3,9 +3,8 @@
  * main -print out sizes of data types in c
  *
  * Return: 0
-
- i*
-*/
+ *
+ */
 int main(void)
 {
 	char a;
