@@ -2,6 +2,11 @@
 #define MAIN_H
 #include <stdio.h>
 
+/**
+ * main.h file
+ * Header file that contains the declaration of our functions
+ */
+
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
