@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * main - Entry point.
- * Description: write a program that prints "_putchar" followed by a new line.
- * Return: Always 0 (Success.)
+ * _putchar - outputs a character to the standard output stream
+ * @c: the character to output
+ * Return: 0 on success, or -1 on error
  */
-int main(void)
+int _putchar(char c)
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,7 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
 
+	_putchar('\n');
 	return (0);
 }
