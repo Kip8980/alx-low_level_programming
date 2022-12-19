@@ -1,12 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _putchar - outputs a character to the standard output stream
- * @c: the character to output
- * Return: 0 on success, or -1 on error
+ * main - prints _putchar and a new line
+ * Return: Always 0
  */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -16,7 +14,7 @@ int _putchar(char c)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
-_putchar('\n');
-return (0):
+	return (0);
 }
